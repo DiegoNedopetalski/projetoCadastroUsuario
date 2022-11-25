@@ -4,11 +4,11 @@ import Header from './Header'
 
 export default function Main(props) {
     return (
-    <React.Fragment>
-        <Header />
-        <div className="content">
-            Conteúdo
-        </div>
-    </React.Fragment>
+        <React.Fragment>
+            <Header {...props} />
+            <div className="content">
+                Conteúdo
+            </div>
+        </React.Fragment>
     )
 }
