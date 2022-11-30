@@ -4,7 +4,7 @@ import Main from "../templates/Main";
 const headerProps = {
     icon: 'users',
     title: 'Usuários',
-    subititle: 'Cadastro de usuários: Incluir, Listar, Alterar e Excluir.'
+    subtitle: 'Cadastro de usuários: Incluir, Listar, Alterar e Excluir.'
 }
 
 export default class UserCrud extends Component {
