@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css'
 import './App.css'
 import React from 'react'
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 
 import Logo from '../components/templates/Logo'
@@ -12,13 +12,13 @@ import Footer from '../components/templates/Footer'
 
 export default function App() {
     return (
-        <BrowserRouter >
+        <HashRouter >
             <div className="app">
                 <Logo />
                 <Nav />
                 <AppRoutes />
                 <Footer />
             </div>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
