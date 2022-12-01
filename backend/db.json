@@ -1,11 +1,19 @@
 {
-    "users": [{
-        "id": 1,
-        "name": "Diego Luis",
-        "email": "diegoluis@gmail.com"
-    }, {
-        "id": 2,
-        "name": "Sandra Simão",
-        "email": "sandrasimao@gmail.com"
-    }]
+  "users": [
+    {
+      "id": 1,
+      "name": "Diego Luis",
+      "email": "diegoluis@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Sandra Simão",
+      "email": "sandrasimao@gmail.com"
+    },
+    {
+      "name": "Diego Luis",
+      "email": "diegoluis@soueu.com.br",
+      "id": 3
+    }
+  ]
 }
