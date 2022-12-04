@@ -18,3 +18,19 @@ aside.menu-area {
     background: linear-gradient(135deg, #07a7a3 0%, #32dac3 100%);
     
 }
+
+@media (max-width: 768px) {
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 100%;
+    }
+
+    .menu a {
+        display: inline;
+        padding: 10px;
+        margin: 0px;
+    }
+
+}
